@@ -19,13 +19,22 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 	/*Reset Code*/
+h1{
+    Text-align:center;
+    font-size: 4em;
+    font-family: "Brush Script MT" ,"Comic Sans Ms", Georgia;
+    background-color: #c0c0c0;
+}
 a{
-    color: #490093;
+    color: #6441A5;
     text-decoration: none;
 }
 a :visited{
-    color: #5200a4;
+    color: #6441B6;
 }
 a :active{
-    color: #5200a4;
+    color: #6441B6;
+}
+body{
+    background-color: #482255;
 }
