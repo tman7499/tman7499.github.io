@@ -1,0 +1,52 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+	/*Reset Code*/
+.button{
+	background-color: red;
+    border-radius: 40%;
+    color: white;
+    padding: .5em 2em .5em 2em;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    margin-top:1em;
+    cursor: pointer;
+}
+body{
+	background-color: #d5c0bd;
+	text-align:center;
+}
+.button:hover{
+	animation: load 5s infinite;
+}
+@keyframes load {
+	0%, 100%{background: #f20d0d;}
+	10%{background: #f4a90b;}
+	20%{background: #d8f50a;}
+	30%{background: #62f709;}
+	40%{background: #0af5b5;}
+	50%{background: #cb0cf3;}
+	60%{background: #0af5b5;}
+	70%{background: #62f709;}
+	80%{background: #d8f50a;}
+	90%{background: #f4a90b;}
+}
