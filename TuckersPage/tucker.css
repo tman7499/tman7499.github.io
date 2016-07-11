@@ -39,8 +39,16 @@ body{
     background-color: #482255;
 }
 #leftp{
-    margin: 10px 40em 10px 5px;
-    padding: 10px 5px 10px;
-    background-color: red;
-    text-align: left;
+    float: left;
+    background-color: #c0c0c0;
+    width:48.2%;
+    margin:10px;
+    border: 1px solid black;
+}
+#rightp{
+    background-color: #c0c0c0;
+    float: right;
+    width:48.2%;
+    margin:10px;
+    border: 1px solid black;
 }
