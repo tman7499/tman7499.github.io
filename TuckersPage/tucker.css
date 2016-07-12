@@ -21,7 +21,7 @@ time, mark, audio, video {
 	/*Reset Code*/
 h1{
     Text-align:center;
-    font-size: 4em;
+    font-size: 5.3em;
     font-family: "Brush Script MT" ,"Comic Sans Ms", Georgia;
     background-color: #c0c0c0;
 }
@@ -52,4 +52,17 @@ body{
     border: 1px solid black;
     height: 450px;
     border-radius: 1%;
+}
+ul{
+    text-align: center;
+    list-style-type:none;
+    background-color: #c0c0c0;
+}
+ul li{
+    display: inline;
+    font-size: 2em;
+    padding: 10%;
+}
+#header{
+    background-color: #c0c0c0;
 }
