@@ -1,0 +1,68 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+	/*Reset Code*/
+h1{
+    Text-align:center;
+    font-size: 5.3em;
+    font-family: "Brush Script MT" ,"Comic Sans Ms", Georgia;
+    background-color: #c0c0c0;
+}
+a{
+    color: #7851A9;
+    text-decoration: none;
+}
+a :visited{
+    color: #6441B6;
+}
+a :active{
+    color: #6441B6;
+}
+body{
+    background-color: #482255;
+}
+#leftp{
+    float: left;
+    background-color: #c0c0c0;
+    width:48.2%;
+    margin:10px;
+    border: 1px solid black;
+}
+#twitter{
+    float: right;
+    width:48.2%;
+    margin: 9px;
+    border: 1px solid black;
+    height: 450px;
+    border-radius: 1%;
+}
+ul{
+    text-align: center;
+    list-style-type:none;
+    background-color: #c0c0c0;
+}
+ul li{
+    display: inline;
+    font-size: 2em;
+    padding: 10%;
+}
+#header{
+    background-color: #c0c0c0;
+}
