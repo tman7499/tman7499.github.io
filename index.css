@@ -1,0 +1,155 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+	/*Reset Code*/
+body{
+    background-image: url(http://silviahartmann.com/background-tile-art/images/gray-background-repeating-2.jpg);
+    Text-align:center;
+}
+h1{
+    font-size: 50px;
+    display: inline;
+}
+#project{
+    background-color: #c0c0c0;
+}
+li{
+    font-size: 25px;
+    list-style: none;
+    padding: 5px;
+}
+a{
+    color: #ff2f2f;
+    text-decoration: none;
+}
+#p{
+    animation: p 7s infinite;
+    color: red;
+}
+#r{
+    animation: r 7s infinite;
+    color: orange;
+}
+#o{
+    animation: o 7s infinite;
+    color: yellow;
+}
+#j{
+    animation: j 7s infinite;
+    color: green;
+}
+#e{
+    animation: e 7s infinite;
+    color: blue;
+}
+#c{
+    animation: c 7s infinite;
+    color: #333399;
+}
+#t{
+    animation: t 7s infinite;
+    color: #232369;
+}
+#s{
+    animation: s 7s infinite;
+    color: #151540;
+}
+@keyframes p{
+    0%, 100% {color: red;}
+    12% {color: orange;}
+    25% {color: yellow;}
+    37% {color:green;}
+    50% {color: blue;}
+    62% {color: #333399;}
+    75% {color: #232369;}
+    88% {color: #151540;}
+}
+@keyframes r{
+    0%, 100%  {color: orange;}
+    12% {color: yellow;}
+    25% {color:green;}
+    37% {color: blue;}
+    50% {color: #333399;}
+    62% {color: #232369;}
+    75% {color: #151540;}
+    88% {color: red;}
+}
+@keyframes o{
+    0%, 100%  {color: yellow;}
+    12% {color:green;}
+    25% {color: blue;}
+    37% {color: #333399;}
+    50% {color: #232369;}
+    62% {color: #151540;}
+    75% {color: red;}
+    88% {color: orange;}
+}
+@keyframes j{
+    0%, 100%  {color:green;}
+    12% {color: blue;}
+    25% {color: #333399;}
+    37% {color: #232369;}
+    50% {color: #151540;}
+    62% {color: red;}
+    75% {color: orange;}
+    88% {color: yellow;}
+}
+@keyframes e{
+    0%, 100%  {color: blue;}
+    12% {color: #333399;}
+    25% {color: #232369;}
+    37% {color: #151540;}
+    50% {color: red;}
+    62% {color: orange;}
+    75% {color: yellow;}
+    88% {color:green;}
+}
+@keyframes c{
+    0%, 100%  {color: #333399;}
+    12% {color: #232369;}
+    25% {color: #151540;}
+    37% {color: red;}
+    50% {color: orange;}
+    62% {color: yellow;}
+    75% {color:green;}
+    88% {color: blue;}
+}
+@keyframes t{
+    0%, 100%  {color: #232369;}
+    12% {color: #151540;}
+    25% {color: red;}
+    37% {color: orange;}
+    50% {color: yellow;}
+    62% {color:green;}
+    75% {color: blue;}
+    88% {color: #333399;}
+}
+@keyframes s{
+    0%, 100%  {color: #151540;}
+    12% {color: red;}
+    25% {color: orange;}
+    37% {color: yellow;}
+    50% {color:green;}
+    62% {color: blue;}
+    75% {color: #333399;}
+    88% {color: #232369;}
+}
+
+
