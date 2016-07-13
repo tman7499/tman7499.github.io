@@ -24,6 +24,7 @@ h1{
     font-size: 5.3em;
     font-family: "Brush Script MT" ,"Comic Sans Ms", Georgia;
     background-color: #c0c0c0;
+    color: #7851A9;
 }
 a{
     color: #7851A9;
@@ -65,4 +66,11 @@ ul li{
 }
 #header{
     background-color: #c0c0c0;
+}
+#donateList{
+    list-style-type: circle;
+    display: block;
+    padding: 15px;
+    background-color: #482255;
+    color: #c0c0c0;
 }
