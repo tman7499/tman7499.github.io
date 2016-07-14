@@ -42,19 +42,21 @@ h2{
     Text-align: center;
     font-size: 40px;
 }
-img{
+img {
     width: 250px;
     height: 250px;
     border: 1px solid black;
     margin-top: 5px;
-    
+}
+figure{
+    float: right;
+}
+figcaption {
+    width: 250px;
+    margin: auto auto auto 25px;
 }
 #about {
-}
-#Waston {
-    position: absolute;
-    top: 0;
-    left: 0;
+    float: left;
 }
 #home {
     display: inline;
@@ -65,6 +67,10 @@ img{
     padding: 0 30px 0 30px;
 }
 #sponsors {
+    display: inline;
+    padding: 0 30px 0 30px;
+}
+#contact {
     display: inline;
     padding: 0 30px 0 30px;
 }
@@ -107,3 +113,8 @@ img{
 #Kirk{
     text-align:center;
 }
+#plw{
+    float: left;
+    margin: 10px;
+}
+
