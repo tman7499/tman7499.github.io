@@ -32,3 +32,9 @@ p{
     padding-top: 5px;
     font-size: 20px;
 }
+canvas {
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    border:10px solid gray;
+}
