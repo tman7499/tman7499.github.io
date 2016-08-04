@@ -261,13 +261,13 @@ figcaption {
     width: 50%;
     float: right;
 }
-#Watson{
+#WatsonR{
     width:50%;
-    float:left;
+    float: right;
 }
 #Bob{
     width:50%;
-    float:right;
+    float:left;
 }
 
 #plw {
