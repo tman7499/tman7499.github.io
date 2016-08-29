@@ -244,34 +244,14 @@ figcaption {
     margin: 0 auto 0 auto;
 }
 
-#Alex {
+#Alex, #Izzy, #Bob, #Foil, #Noah, #Scott, #Lori  {
     width: 50%;
     float: left;
 }
 
-#Tristan {
+#Tristan, #Kirk, #WatsonR, #Brock, #Britney, #Fox, #Mason{
     width: 50%;
     float: right;
-}
-
-#Izzy {
-    width: 50%;
-    float: left;
-}
-
-#Kirk {
-    width: 50%;
-    float: right;
-}
-
-#WatsonR {
-    width: 50%;
-    float: right;
-}
-
-#Bob {
-    width: 50%;
-    float: left;
 }
 
 #plw {
