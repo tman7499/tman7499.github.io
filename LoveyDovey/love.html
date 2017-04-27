@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="Love.js"></script>
+    <link rel="stylesheet" type="text/css" href="love.css">
+    <title>
+        Prom? <3 
+    </title>
+    
+</head>
+<body>
+    <canvas id="myCanvas" width="10000" height="10000">
+    <div id=heart>
+        <!--<img id=heartpic src="http://www.publicdomainpictures.net/pictures/40000/nahled/basic-heart-outline.jpg"></img>-->
+    </div>
+</body>
+<script>
+var h = document.getElementById("myCanvas");
+var heart = h.getContext("2d");
+heart.strokeStyle="#b30059";
+heart.beginPath();
+heart.arc(500, 375, 75, 0, 0.75 * Math.PI,true);
+heart.stroke();
+heart.beginPath();
+heart.arc(650, 375, 75, 0.25*Math.PI, 1 * Math.PI,true);
+heart.stroke();
+heart.beginPath();
+heart.moveTo(440,421);
+heart.lineTo(575,555);
+heart.lineTo(710,421);
+heart.stroke();
+heart.strokeStyle="Black";
+heart.font="40px Georgia";
+heart.fillText("Yo!,Prom?",490,420);
+</script>
