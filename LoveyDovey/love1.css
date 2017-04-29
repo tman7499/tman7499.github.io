@@ -1,0 +1,42 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+    /*Reset Code*/
+h1{
+    font-family:"Brush Script MT", "Brush Script Std", "Lucida Calligraphy";
+    font-size: 2.5em;
+    width: 50%;
+    color: #c0c0c0;
+}
+body{
+    background-color: #231b85;
+}
+.button, .buton{
+	background-color: #ff00ff;
+    border-radius: 60%;
+    color: white;
+    padding: 1em 2em 1em 2em;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 20px 20px;
+    margin-top:1em;
+    cursor: pointer;
+}
